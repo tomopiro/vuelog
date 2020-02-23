@@ -1,15 +1,15 @@
 <template>
   <div class="hello">
     <h1>vuelog</h1>
-    <li v-for="a in articles" :key="a.id">
-      {{ a.id}}
-      {{ a.name}}
-    </li>
+    <ul v-for="s in summary.fileMap" :key="s.created_at">
+      <li>タイトル：{{ s.title }}</li><br>
+      <li>投稿日：{{ s.created_at }}</li>
+    </ul>
   </div>
 </template>
 
 <script>
-import articles from '../assets/article.json'
+import summary from '../json/summary.json'
 
 export default {
   name: 'index',
@@ -18,7 +18,7 @@ export default {
   },
   data () {
     return {
-      articles: articles,
+      summary: summary,
       key: '',
       id: ''
     }
