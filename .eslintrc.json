@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "airbnb-base",
+    "prettier",
+    "plugin:vue/base"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "indent": ["error", "tab"]
+  }
+}
