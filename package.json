@@ -6,33 +6,36 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "hoge": "echo 'hoge'",
+    "format:p": "./node_modules/.bin/prettier --write --use-tabs=true --tab-width=4 --single-quote=true src/*.{vue,js}",
+    "lin": "./node_modules/.bin/eslint --fix src/**/*.{js,vue}",
     "geho": "echo 'geho'",
+    "hoge": "echo 'hoge'",
     "hogeho": "run-s hoge geho",
     "md": "processmd ./src/md/*.md --stdout --outputDir ./src/json > ./src/json/summary.json",
-    "mdbuild": "run-s md build",
-    "format:vue": "./node_modules/.bin/eslint --fix src/components/*.vue",
-    "format:v": "./node_modules/.bin/eslint --fix src/*.{vue,js}"
+    "mdbuild": "run-s md build"
   },
   "dependencies": {
     "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vuetify": "^2.2.11"
   },
   "devDependencies": {
+    "@mdi/font": "^4.9.95",
     "@vue/cli-plugin-babel": "~4.2.0",
     "@vue/cli-plugin-eslint": "~4.2.0",
     "@vue/cli-service": "~4.2.0",
-    "babel-eslint": "^10.0.3",
+    "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-vue": "^6.2.1",
     "npm-run-all": "^4.1.5",
-    "prettier": "^1.19.1",
     "processmd": "^4.5.0",
-    "vue-template-compiler": "^2.6.11"
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-vuetify": "~2.0.5",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.3.0"
   },
   "eslintConfig": {
     "root": true,
@@ -40,8 +43,8 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
+      "airbnb-base",
+      "plugin:vue/recommended"
     ],
     "parserOptions": {
       "parser": "babel-eslint"
