@@ -1,22 +1,5 @@
 <template>
-  <div class="index">
-    <ul
-      v-for="s in summary.fileMap"
-      :key="s.created_at"
-    >
-      <v-card-title>{{ s.title }}</v-card-title>
-      <v-card
-        class="mx-auto"
-        max-width="344"
-        outlined
-      >
-        <li>タイトル：{{ s.title }}</li>
-        <br>
-        <li>投稿日：{{ s.created_at }}</li>
-      </v-card>
-
-      <v-spacer />
-    </ul>
+  <div id="index">
   </div>
 </template>
 

@@ -15,9 +15,17 @@
     "mdbuild": "run-s md build"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-brands-svg-icons": "^5.12.1",
+    "@fortawesome/free-regular-svg-icons": "^5.12.1",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/vue-fontawesome": "^0.1.9",
+    "bootstrap": "^4.4.1",
+    "bootstrap-social": "^5.1.1",
+    "bootstrap-vue": "^2.5.0",
     "core-js": "^3.6.4",
-    "vue": "^2.6.11",
-    "vuetify": "^2.2.11"
+    "font-awesome": "^4.7.0",
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "@mdi/font": "^4.9.95",
@@ -33,9 +41,7 @@
     "processmd": "^4.5.0",
     "sass": "^1.19.0",
     "sass-loader": "^8.0.0",
-    "vue-cli-plugin-vuetify": "~2.0.5",
-    "vue-template-compiler": "^2.6.11",
-    "vuetify-loader": "^1.3.0"
+    "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
     "root": true,
