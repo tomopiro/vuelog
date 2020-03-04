@@ -1,5 +1,26 @@
 <template>
-  <div id="index" />
+  <div id="index">
+    <b-container
+      fluid
+      class="p-3 bg-dark"
+    >
+      <b-row>
+        <div
+          v-for="s in summary.fileMap"
+          :key="s.created_at"
+          class="col-sm-4"
+        >
+          <b-card
+            overlay
+            text-variant="white"
+            :title="s.title"
+            :img-src="s.image"
+            class="thumb-img"
+          />
+        </div>
+      </b-row>
+    </b-container>
+  </div>
 </template>
 
 <script>
@@ -7,6 +28,8 @@ import summary from '../json/summary.json';
 
 export default {
   name: 'Index',
+  components: {
+  },
   props: {},
   data() {
     return {
@@ -16,9 +39,6 @@ export default {
     };
   },
   methods: {
-    getImageUrl(id) {
-      return `../assets/${id}`;
-    },
   },
 };
 </script>
