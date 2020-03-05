@@ -16,7 +16,9 @@
             :title="s.title"
             :img-src="s.image"
             class="thumb-img"
-          />
+          >
+            {{ s.created_at | moment("YYYY/MM/DD") }}
+          </b-card>
         </div>
       </b-row>
     </b-container>
