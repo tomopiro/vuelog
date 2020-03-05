@@ -15,6 +15,8 @@ library.add(fas, far, fab);
 
 Vue.component('v-fa', FontAwesomeIcon);
 
+Vue.use(require('vue-moment'));
+
 Vue.use(BootstrapVue);
 
 Vue.config.productionTip = false;
