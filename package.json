@@ -38,10 +38,11 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-vue": "^6.2.1",
+    "node-sass": "^4.13.1",
     "npm-run-all": "^4.1.5",
     "processmd": "^4.5.0",
     "sass": "^1.19.0",
-    "sass-loader": "^8.0.0",
+    "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
