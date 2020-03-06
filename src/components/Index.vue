@@ -10,15 +10,17 @@
           :key="s.created_at"
           class="col-sm-4"
         >
-          <b-card
-            overlay
-            text-variant="white"
-            :title="s.title"
-            :img-src="s.image"
-            class="thumb-img"
-          >
-            {{ s.created_at | moment("YYYY/MM/DD") }}
-          </b-card>
+          <router-link to="/article">
+            <b-card
+              overlay
+              text-variant="white"
+              :title="s.title"
+              :img-src="s.image"
+              class="thumb-img"
+            >
+              {{ s.created_at | moment("YYYY/MM/DD") }}
+            </b-card>
+          </router-link>
         </div>
       </b-row>
     </b-container>
