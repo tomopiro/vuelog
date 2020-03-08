@@ -10,7 +10,7 @@
           :key="s.created_at"
           class="col-sm-4"
         >
-          <router-link to="/article">
+          <router-link :to="'article/' + s.id">
             <b-card
               overlay
               text-variant="white"

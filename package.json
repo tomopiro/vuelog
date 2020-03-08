@@ -11,7 +11,7 @@
     "geho": "echo 'geho'",
     "hoge": "echo 'hoge'",
     "hogeho": "run-s hoge geho",
-    "md": "processmd ./src/md/*.md --stdout --outputDir ./src/json > ./src/json/summary.json",
+    "md": "processmd ./src/md/*.md --stdout --outputDir ./public/json > ./src/json/summary.json",
     "mdbuild": "run-s md build"
   },
   "dependencies": {
@@ -20,6 +20,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.12.1",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@fortawesome/vue-fontawesome": "^0.1.9",
+    "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "bootstrap-social": "^5.1.1",
     "bootstrap-vue": "^2.5.0",
