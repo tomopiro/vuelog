@@ -1,24 +1,12 @@
-# app
+# Vuelog
+Markdownで記述した記事をGitHub経由でNetlifyにデプロイし、HTMLとして表示するシステムです。
 
-## Project setup
-```
-yarn install
-```
+## 本番環境
+https://areeelist.netlify.com
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 使用技術、ライブラリ
+- Vue 2.6.11
+- BootstrapVue 2.5.0
+- Docker
+- Netlify
+- processmd
