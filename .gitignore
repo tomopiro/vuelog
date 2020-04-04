@@ -2,6 +2,7 @@
 node_modules
 /dist
 /src/json/*.json
+/public/json/*.json
 
 # local env files
 .env.local
