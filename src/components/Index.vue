@@ -4,25 +4,22 @@
       fluid
       class="p-3 bg-dark"
     >
-      <b-row>
+      <div
+        v-for="s in summary.fileMap"
+        :key="s.created_at"
+        class="row mb-4"
+      >
+        <div class="col" />
         <div
-          v-for="s in summary.fileMap"
-          :key="s.created_at"
-          class="col-sm-4"
+          class="col-6"
         >
           <router-link :to="'article/' + s.id">
-            <b-card
-              overlay
-              text-variant="white"
-              :title="s.title"
-              :img-src="s.image"
-              class="thumb-img"
-            >
-              {{ s.created_at | moment("YYYY/MM/DD") }}
-            </b-card>
+            {{ s.title }}
           </router-link>
+          <div>{{ s.created_at | moment("YYYY/MM/DD") }}</div>
         </div>
-      </b-row>
+        <div class="col" />
+      </div>
     </b-container>
   </div>
 </template>
@@ -47,7 +44,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h3 {
   margin: 40px 0 0;
