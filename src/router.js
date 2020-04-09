@@ -18,5 +18,13 @@ export default new Router({
       name: 'Article',
       component: Article,
     },
+    {
+      path: '/twitter',
+      beforeEnter() { window.open('http://twitter.com/tomo_moog'); },
+    },
+    {
+      path: '/github',
+      beforeEnter() { window.open('http://github.com/tomopiro'); },
+    },
   ],
 });
