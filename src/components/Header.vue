@@ -6,7 +6,7 @@
     >
       <b-navbar-nav class="mx-auto">
         <b-navbar-brand href="#">
-          Vuelog
+          {{ siteName }}
         </b-navbar-brand>
       </b-navbar-nav>
       <b-navbar-nav>
@@ -38,7 +38,13 @@
   </div>
 </template>
 <script>
-export default {
+import Config from '../mixins/config';
 
+export default {
+  mixins: [Config],
+  data() {
+    return {
+    };
+  },
 };
 </script>
