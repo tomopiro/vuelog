@@ -1,5 +1,5 @@
 ---
-id: 1
+id: my-vim-cheat-sheet
 title: Vimチートシート（自分専用）
 created_at: 2020-02-15
 image:
