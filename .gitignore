@@ -3,6 +3,7 @@ node_modules
 /dist
 /src/json/*.json
 /public/json/*.json
+/src/md/article-test.md
 
 # local env files
 .env.local

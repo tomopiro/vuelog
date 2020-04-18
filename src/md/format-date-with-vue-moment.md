@@ -1,5 +1,5 @@
 ---
-id: 3
+id: format-date-with-vue-moment
 title: vue-momentで日付をフォーマットする
 created_at: 2020-03-05
 image:
