@@ -14,17 +14,17 @@ export default new Router({
       component: Index,
     },
     {
-      path: '/article/:id',
-      name: 'Article',
-      component: Article,
-    },
-    {
       path: '/twitter',
       beforeEnter() { window.open('http://twitter.com/tomo_moog'); },
     },
     {
       path: '/github',
       beforeEnter() { window.open('http://github.com/tomopiro'); },
+    },
+    {
+      path: '/:id',
+      name: 'Article',
+      component: Article,
     },
   ],
 });
