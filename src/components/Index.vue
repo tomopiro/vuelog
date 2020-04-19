@@ -13,7 +13,7 @@
         <div
           class="col-6"
         >
-          <router-link :to="'article/' + s.id">
+          <router-link :to="s.id">
             {{ s.title }}
           </router-link>
           <div>{{ s.created_at | moment("YYYY/MM/DD") }}</div>

@@ -12,7 +12,7 @@
       <b-navbar-nav>
         <b-nav-item>
           <router-link
-            to="/twitter"
+            to="twitter"
           >
             <v-fa
               :icon="['fab', 'twitter']"
@@ -24,7 +24,7 @@
 
         <b-nav-item>
           <router-link
-            to="/github"
+            to="github"
           >
             <v-fa
               :icon="['fab', 'github']"
