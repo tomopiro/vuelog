@@ -39,6 +39,5 @@ Vim3回くらい挫折してるやつが作ったチートシート。
 |O|上に新しい行を作成し挿入モード|
 
 ## 参考記事
-はじめてのVim 〜 Vimはいいぞ！ゴリラと学ぶVim講座
-
-https://knowledge.sakura.ad.jp/21687/
+はじめてのVim 〜 Vimはいいぞ！ゴリラと学ぶVim講座  
+[https://knowledge.sakura.ad.jp/21687/](https://knowledge.sakura.ad.jp/21687/)

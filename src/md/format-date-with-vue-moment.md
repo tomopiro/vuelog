@@ -31,6 +31,6 @@ or演算子｜の右辺でフォーマット形式を指定します。
 ```
 
 ## 参考にしたサイト
-vue-moment  -  npm
 
-https://www.npmjs.com/package/vue-moment
+vue-moment  -  npm  
+[https://www.npmjs.com/package/vue-moment](https://www.npmjs.com/package/vue-moment)
