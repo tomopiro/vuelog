@@ -9,8 +9,8 @@ image:
 マークダウン形式・YAML形式のファイルから、htmlタグを含むjson形式ファイルを生成するnpmパッケージです。
 ブログなどの静的コンテンツを作成するのに便利です。
 
-詳細はこちらで
-https://github.com/tscanlin/processmd
+詳細はこちらで  
+[https://github.com/tscanlin/processmd](https://github.com/tscanlin/processmd)
 
 
 ## これが
